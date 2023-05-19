@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const routes = require('./routes')
 
 // Users Controller
-const userController = require('./controllers/users')
+const userController = require('./controllers/task')
 const authController = require('./controllers/auth')
 const app = express();
 
